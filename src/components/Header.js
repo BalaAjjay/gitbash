@@ -7,9 +7,11 @@ const Header = ({ history, handleSubmit }) => {
   // console.log(history+"88888888888"+handleSubmit)
   return (
     <div>
-      <h1>SnapShot</h1>
+      <h2>SnapShot</h2>
       <Form history={history} handleSubmit={handleSubmit} />
       <Navigation />
+
+
     </div>
   );
 };
